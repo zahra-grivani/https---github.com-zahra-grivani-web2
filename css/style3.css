@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 236, 221);
+}
+
+  nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    height: 60px;
+    background-color: rgb(252, 243, 233);
+    border-bottom: 2.5px solid rgb(174, 160, 160); 
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 30px;
+    padding-left: 250px;
+    padding-right: 250px;   
+    z-index: 1;
+}
+
+
+.item{
+    color: rgb(84, 83, 83);
+    text-decoration: none;
+   
+}
+.item:hover{
+    border-bottom: 4px solid rgb(225,203,112);
+    padding-bottom: 15px;
+}
+
+    .main-1{
+        border: 2px solid #cdbfa6 ;
+        border-radius: 40px;
+        padding: 20px;
+        margin: 100px 50px 100px 50px;
+        font-size: 1rem;
+       background-color: rgb(107, 71, 21);
+    }
+    .bold{
+        font-size: xx-large;
+        
+        color: rgb(239, 237, 235);
+        
+        padding: 10px;
+    }
+    .bold1{
+        color: rgb(241, 241, 241);
+        margin-left: 45px;
+        padding: 10px;
+    }
+    
+    
+.footer{
+    background-color: #523f2b;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 20px;
+               
+}
+.div-ul{
+    color:rgb(250, 236, 182) ;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 2;
+ }
+ @media(max-width:615px){
+    nav{
+        height: 110px;
+        
+    }
+ }
+
+ @media(max-width:760px){
+    nav{
+       font-size: 0.8rem;
+    }
+ }
+ @media(max-width:500px){
+    .img1{
+       display: none;
+    }
+ }
+ @media(max-width:500px){
+    nav{
+        border-radius: 0;
+        
+    }
+ }
+ @media(max-width:420px){
+    .item{
+        padding-right: 100px;
+    }
+ }
+ 
+
+
+      
+          
+              
+            
+
+          
+
+            
+        
+
+
+
+
+
